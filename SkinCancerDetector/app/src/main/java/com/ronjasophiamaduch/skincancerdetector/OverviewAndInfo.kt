@@ -7,25 +7,25 @@ import android.os.Bundle
 import android.util.Log
 import android.widget.Button
 
-class overview_and_info : AppCompatActivity() {
+class OverviewAndInfo : AppCompatActivity() {
 
-    private val btn_to_main : Button by lazy{ findViewById(R.id.button_mainActivity) }
-    private val btn_to_tutorial : Button by lazy{ findViewById(R.id.button_tutorial) }
+    private val btnToMain : Button by lazy{ findViewById(R.id.button_mainActivity) }
+    private val btnToTutorial : Button by lazy{ findViewById(R.id.button_tutorial) }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_overview_and_info)
 
-        btn_to_main.setOnClickListener{
+        btnToMain.setOnClickListener{
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
-            Log.i(TAG, "btn_to_main clicked")
+            Log.i(TAG, "btnToMain clicked")
         }
 
-        btn_to_tutorial.setOnClickListener{
+        btnToTutorial.setOnClickListener{
             val intent = Intent(this, Tutorial::class.java)
             startActivity(intent)
-            Log.i(TAG, "btn_to_tutorial clicked")
+            Log.i(TAG, "btnToTutorial clicked")
         }
     }
 }

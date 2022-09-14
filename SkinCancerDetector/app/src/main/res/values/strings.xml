@@ -2,8 +2,6 @@
     <string name="app_name">SkinCancerDetector</string>
     <string name="load_image">Bild hochladen</string>
     <string name="predict">Risiko einordnen</string>
-    <string name="malignant">malignant</string>
-    <string name="benign">benign</string>
     <string name="button_tutorial_text">Welche Fotos sind geeignet?</string>
     <string name="button_mainActivity_text">Hautstelle überprüfen</string>
     <string name="textview_tutorial_text">Bitte achten Sie darauf, dass die Haut unter einer guten Belichtung fotografiert wird. Zudem sollte auf der Aufnahme nur die betroffene Hautstelle zu sehen sein. Es sollten möglichst keine Kleidungsstücke, Hintergründe oder sonstige andere Dinge darauf abgebildet sein. Weiterhin ist es wichtig, dass senkrecht von oben fotografiert wird. Die Aufnahmen sollten nicht verwackelt sein. Bei unzureichender Qualität der Fotografien der Haut, treten Fehler bei der Klassifizierung auf. Hier sehen Sie ein Beispiel einer gut geeigneten Aufnahme:</string>
@@ -13,5 +11,7 @@
     <string name="result_categorization_harmless"> % keine Anzeichen einer gefährlichen Hautkrankheit auf.</string>
     <string name="textview_welcome_text">Herzlich willkommen! Diese App unterstützt Sie bei der Untersuchung Ihrer Haut und bei der Prävention von bösartigen Hauterkrankungen. Es ist wichtig, dass Sie Ihre Haut regelmäßig nach auffälligen Merkmalen untersuchen. Achten Sie dabei darauf, ob Ihre Haut sich in den letzten Wochen verändert hat. Wenn ihnen eine Stelle Ihrer Haut auffällig erscheint, dann können Sie diese Stelle Fotografieren und das Foto hochladen. Sie erhalten eine vorläufige Einschätzung darüber, ob es sich um eine gefährliche Krankheit handeln könnte.</string>
     <string name="please_load_picture_toast">bitte lade ein Foto</string>
+    <string name="content_description_space_holder">Completly black picture used as place holder</string>
+    <string name="content_description_example_picture_benign_skin">The picture is an example that shows how to photograph the skin.</string>
 
 </resources>
